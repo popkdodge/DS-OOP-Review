@@ -1,6 +1,6 @@
 '''Game class to model a football game
 '''
-from teams import team_names
+from possible_values import *
 import random
 
 

@@ -1,11 +1,11 @@
 '''Tracks the season perfomance of different teams and generates a
 '''
-from possible_values import *
+from possible_values import team_names, locations, weeks
 from game import Game
 from random import randint, uniform, sample
 
 
-def generate_rand_games(n=15):
+def generate_rand_games(n=len(weeks)):
     '''Generate n random games using value lists in possible_values
     '''
     # Begin with enpty list
